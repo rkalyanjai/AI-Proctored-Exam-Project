@@ -16,3 +16,14 @@ Here, we converted the audio file to text file using google speech recognition a
    Jupyter Notebook
 ## Description:-
 First we converted the input image(jpeg/jpg) into grayscale using opencv. Then, we detected the faces using Haar Cascade XML file(where the cascade funtion is trained with a lot of images and based on that training, it is able to detect the number of faces in an image). Then, we put rectangular boxes around the faces using opencv and we just printed the output image on the screen. We also calculated number of faces using python.
+
+# Module 3:- face_detection_in_live_video:-
+## Packages used:-
+   Opencv:- pip install opencv-python  
+   Haar cascades: - It is an Object Detection Algorithm used to identify faces in an image or a real time video.
+ ## Ide used:-
+   Jupyter Notebook
+ ## Description:-
+ First we used video capture atribute of opencv to capture the live video from webcam. Then, we take captured video file as an input and converted it to grayscale. Then, we detect
+ the faces using Haar Cascade XML file and also put rectangular boxes around the faces using opencv to easily determine the number of faces. 
+ If the number of faces is Zero or more than one then it will show malpractice.
